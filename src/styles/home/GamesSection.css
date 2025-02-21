@@ -1,0 +1,46 @@
+.games-container {
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .games-container h1 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .images-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 43px;
+    width: 100%;
+  }
+  
+  .images-container img {
+    width: 100%;
+  }
+  
+
+  /* Responsive Design */
+  @media (max-width: 1270px) {
+    .images-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 908px) {
+    .images-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .images-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .games-container {
+      padding: 1rem;
+    }
+  }

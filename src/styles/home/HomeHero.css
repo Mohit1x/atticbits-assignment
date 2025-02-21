@@ -1,0 +1,203 @@
+.layout-container {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr; 
+    grid-template-rows: auto auto;   
+    padding: 0 var(--padding-large);
+    gap: 30px;
+}
+
+.image-section {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: end;
+}
+
+.game-card {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.info-list {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+h1{
+    font-size: 64px;
+    line-height: 89.34px;
+    letter-spacing: 0%;
+}
+
+.text-section {
+    grid-column: 1 / 2; 
+    grid-row: 1 / 2;
+}
+
+.text-section p{
+    color: #D4D4D4;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    max-width: 801px;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 60px;
+}
+
+.button-container button {
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    height: 68px;
+}
+
+.find-out-btn {
+    background-color: white;
+    color: #1C1814;
+    min-width: 283px;
+}
+
+.register-btn {
+    background-color: #E04726; 
+    color: white;
+    min-width: 202px;
+}
+
+.game-card{
+    display: flex;
+}
+
+.game-card img{
+    width: 250px;
+    height: 250px;
+}
+
+.game-container{
+    border: 1px solid #FFFFFF;
+    border-left: none;
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 24px;
+}
+
+.game-button-container{
+    display: flex;
+}
+
+.game-button-container button{
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0%;
+    height: 35px;
+}
+
+.selected-game-btn{
+    width: 133px;
+    color: #1C1814;
+}
+
+.play-game-btn{
+    width: 101px;
+    color: white;
+    background-color: #E04726;
+}
+
+.game-text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.game-text h3{
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.game-text p{
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    color: #D4D4D4;
+}
+
+.info-list {
+    color: white;
+  }
+  
+  .detail-list {
+    position: relative;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 150px 1fr 80px;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  
+  .detail-list h2 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+  }
+  
+  .detail-list p {
+    color:#FFFFFFB2;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+  }
+  
+  .detail-list h3 {
+    color: #E04726;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+  
+  .detail-list h3::before {
+    content: '/';
+    margin-right: 2px;
+  }
+
+  .line {
+    position: relative;  
+    border-bottom: 1px solid white;
+    height: 1px;        
+    width: 100%;        
+  }
+  
+  .line::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 50%;         
+    transform: translateY(-50%);  
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .line::after {
+    content: '';
+    position: absolute;
+    right: -6px;
+    top: 50%;       
+    transform: translateY(-50%);  
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+
