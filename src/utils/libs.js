@@ -20,3 +20,10 @@ export const details = [
     year: "2024",
   },
 ];
+
+export const regiterNowBanner = {
+  title: "Create your own tournaments",
+  text: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+  tag: "REGISTER TODAY",
+  url: "/images/regiter-now-banner-img.png",
+};
