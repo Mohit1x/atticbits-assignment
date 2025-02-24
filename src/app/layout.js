@@ -2,6 +2,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import { Roboto } from "next/font/google";
+import Footer from "@/components/Footer";
+import GetStartedBanner from "@/components/homePage/GetStartedBanner";
 
 const roboto = Roboto({ subsets: ["latin"], weight: "500", display: "swap" });
 
@@ -27,6 +29,8 @@ export default function RootLayout({ children }) {
       <body className={`${roboto.className}`}>
         <Header />
         {children}
+        <GetStartedBanner />
+        <Footer />
       </body>
     </html>
   );

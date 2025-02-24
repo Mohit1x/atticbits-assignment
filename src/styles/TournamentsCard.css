@@ -1,0 +1,78 @@
+.tournaments-card-container {
+  border: 2px solid #808080;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 12px;
+}
+
+.heading {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.tournaments-card-container p {
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  color: #d4d4d4;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tournaments-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tournaments-card-text span {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.selected {
+  border: 2px solid #e04726;
+}
+
+.white-border {
+  border: 2px solid white;
+}
+
+.playing-status {
+  background-color: #6dba00;
+}
+.upcoming-status {
+  background-color: #ff8800;
+}
+.finshed-status {
+  background-color: #fdb900;
+}
+
+.status {
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  padding: 12px;
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1200px) {
+  .tournaments-card-container {
+    padding: 14px;
+    gap: 7px;
+  }
+  .heading {
+    font-size: 20px !important;
+    line-height: 22px;
+  }
+  .tournaments-card-container p {
+    font-size: 16px;
+    line-height: 20 px;
+  }
+}

@@ -1,0 +1,158 @@
+.top-teams-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.top-teams-container h1 {
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+.all-top-teams-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.top-teams-card-container {
+  border: 1px solid #808080;
+}
+
+.top-teams-card-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  width: 100%;
+}
+
+.top-teams-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.name {
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.top-teams-texts h2 {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.top-teams-texts p {
+  color: #d4d4d4;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.green {
+  color: #60fc6c;
+}
+.orange {
+  color: #f55937;
+}
+.blue {
+  color: #9bd4f2;
+}
+.gray {
+  color: #d4d4d4;
+}
+
+.gap-twice {
+  gap: 24px;
+}
+
+.top-teams-card-container img {
+  width: 100%;
+  max-width: 200px;
+  min-width: 50px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1200px) {
+  .name {
+    font-size: 20px !important;
+    line-height: 20px !important;
+  }
+  .titles h2 {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+  .top-teams-card-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  .top-teams-card-container img {
+    width: 100%;
+    max-width: 150px;
+    min-width: 50px;
+  }
+  .all-top-teams-cards {
+    gap: 18px;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 701px) {
+  .name {
+    font-size: 16px !important;
+    line-height: 16px !important;
+  }
+  .titles h2 {
+    font-size: 12px !important;
+    line-height: 16px !important;
+  }
+  .top-teams-card-container {
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  .top-teams-card-container img {
+    width: 100%;
+    max-width: 100px;
+    min-width: 30px;
+  }
+  .all-top-teams-cards {
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .name {
+    font-size: 10px !important;
+    line-height: 10px !important;
+  }
+  .titles h2 {
+    font-size: 8px !important;
+    line-height: 12px !important;
+  }
+  .top-teams-card-container {
+    gap: 6px;
+    padding: 6px;
+    width: 100%;
+  }
+  .top-teams-card-container img {
+    width: 100%;
+    max-width: 60px;
+    min-width: 20px;
+  }
+  .all-top-teams-cards {
+    gap: 8px;
+  }
+}

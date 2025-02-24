@@ -1,0 +1,30 @@
+.tournaments-details-main-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.top-tems-tournaments-detail-container {
+  padding: 40px;
+}
+
+.tournaments-main-container {
+  background: linear-gradient(150.89deg, #e04726 0%, #1c1814 100%);
+  padding: 30px;
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1200px) {
+}
+
+@media screen and (max-width: 1100px) and (min-width: 701px) {
+  .tournaments-details-main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tournaments-details-main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

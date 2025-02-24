@@ -1,0 +1,54 @@
+.live-streaming-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.live-streaming-container h1 {
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #e04726;
+}
+
+.game-img {
+  width: 100%;
+  min-width: 300px;
+  max-width: 1000px;
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.live-streaming-container p,
+span {
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  display: inline;
+}
+
+.live-streaming-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  color: #e04726;
+}
+
+.icon {
+  height: 28px;
+  min-width: 28px;
+  margin-left: 30px;
+  margin-top: 2px;
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1200px) {
+}
+
+@media screen and (max-width: 1100px) and (min-width: 701px) {
+}
+
+@media screen and (max-width: 700px) {
+}

@@ -1,0 +1,72 @@
+.live-tournament-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: var(--padding-large);
+}
+
+.live-tournament-container h1 {
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+
+.games-btn-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.games-btn-container button {
+  background-color: transparent;
+  border: 1px solid #ccbab0;
+  padding: 26px;
+  width: fit-content;
+  color: white;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+button.active-btn {
+  background-color: #e04726;
+  border: none;
+}
+
+.components-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 20px;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1100px) and (min-width: 701px) {
+  .games-btn-container {
+    display: none;
+  }
+  .components-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .games-btn-container {
+    display: none;
+  }
+  .components-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}

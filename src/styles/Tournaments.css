@@ -1,0 +1,36 @@
+.home-tournaments-container,
+.home-tournaments-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-tournaments-container {
+  gap: 12px;
+}
+
+.home-tournaments-cards {
+  gap: 24px;
+}
+
+.home-tournaments-container h1 {
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1200px) {
+  .home-tournaments-cards {
+    gap: 12px;
+  }
+}
+@media screen and (max-width: 1100px) and (min-width: 701px) {
+  .home-tournaments-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .home-tournaments-container {
+    display: none;
+  }
+}

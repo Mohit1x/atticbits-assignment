@@ -1,0 +1,134 @@
+.main-form-container {
+  padding-left: var(--padding-large);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.form-content {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  height: 600px;
+  background-color: #322f2b;
+  gap: 40px;
+}
+
+.form-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: var(--padding-large);
+  gap: 24px;
+}
+
+.form-text h1 {
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: 0%;
+}
+
+.form-text p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.form-text button {
+  background: transparent;
+  align-self: self-start;
+  padding: 23px 20px;
+  border: 1px solid white;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: white;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 26px;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.form-inputs input {
+  width: 500px;
+  height: 46px;
+  background-color: #494643;
+  border: none;
+}
+
+input::placeholder {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #d4d4d4;
+  padding: 12px;
+}
+.form-inputs button {
+  width: 500px;
+  height: 46px;
+  background-color: #e04726;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: white;
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1200px) {
+  h1 {
+    font-size: 35px !important;
+    line-height: 25px;
+  }
+  .form-content {
+    display: grid;
+    height: 550px;
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 701px) {
+  .form-content {
+    display: flex;
+  }
+
+  .form-text {
+    display: none;
+  }
+  .main-form {
+    display: flex;
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .form-content {
+    display: flex;
+  }
+
+  .form-text {
+    display: none;
+  }
+  .main-form {
+    display: flex;
+    width: fit-content;
+  }
+  .form-inputs {
+    max-width: 400px;
+    min-width: 200px;
+  }
+  .form-inputs input {
+    width: 300px !important;
+  }
+  .form-inputs button {
+    width: 300px !important;
+  }
+}
