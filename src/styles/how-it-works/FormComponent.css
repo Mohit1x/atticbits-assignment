@@ -52,6 +52,12 @@
   gap: 26px;
 }
 
+.main-form h1 {
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
 .form-inputs {
   display: flex;
   flex-direction: column;
