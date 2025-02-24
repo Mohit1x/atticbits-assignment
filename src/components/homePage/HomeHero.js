@@ -64,14 +64,14 @@ const HomeHero = () => {
       </div>
       <div className="info-list">
         {details.map((detail) => (
-          <>
+          <div key={detail.year}>
             <div className="line" />
             <div className="detail-list" key={detail.tag}>
               <h2 className={`${roboto.className}`}>{detail.tag}</h2>
               <p className={`${roboto.className}`}>{detail.text}</p>
               <h3 className={`${roboto.className}`}>{detail.year}</h3>
             </div>
-          </>
+          </div>
         ))}
         <div className="line" />
       </div>

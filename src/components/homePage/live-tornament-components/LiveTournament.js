@@ -18,8 +18,9 @@ const LiveTournament = () => {
     <div className="live-tournament-container">
       <h1>Live Tournament</h1>
       <div className="games-btn-container">
-        {gamesBtn.map((btn) => (
+        {gamesBtn.map((btn, index) => (
           <button
+            key={index}
             onClick={() => handleSelected(btn)}
             className={`${selected === btn ? "active-btn" : ""}`}
           >
